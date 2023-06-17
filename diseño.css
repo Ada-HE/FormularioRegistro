@@ -1,0 +1,48 @@
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 30 px;
+    margin-bottom: 40px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    text-align: center;
+}
+* {
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.form-login {
+width: 400px;
+height: 350px;
+background: turquoise;
+margin: auto;
+margin-top: 180px;
+box-shadow: 7px 13px 37px brown;
+padding: 20px 30px ;
+border-top: 4px solid green;
+color: white;
+}
+.form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.form-login a{
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+}
+button{
+    background-color: lawngreen;
+}
+input:invalid{
+    color:red;
+}
+input:valid{
+    background-color: #e4e4e4;
+}
